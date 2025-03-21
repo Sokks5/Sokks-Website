@@ -25,13 +25,6 @@ nav span {
     text-align: left;
 }
 
-.scroll-wrapper {
-    overflow-x: auto;
-    overflow-y: hidden;
-    width: 100%;
-    -webkit-overflow-scrolling: touch;
-}
-
 .gallery-container {
     display: flex;
     flex-direction: column;
@@ -48,8 +41,10 @@ nav span {
 .photo-block img {
     height: 50vh;
     width: auto;
+    max-width: 100vw;
     object-fit: contain;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: block;
 }
 
 .front-page-art {
