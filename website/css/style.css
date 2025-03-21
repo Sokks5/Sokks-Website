@@ -25,14 +25,20 @@ nav span {
     text-align: left;
 }
 
+.scroll-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
 .gallery-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
     display: flex;
     flex-direction: column;
     gap: 40px;
     align-items: center;
+    padding: 40px 20px;
+    min-width: fit-content;
 }
 
 .photo-block {
