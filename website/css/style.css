@@ -2,3 +2,37 @@ html {
     color: #5c503b;
     background-color: #93c997
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+}
+
+.gallery-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.photo-block {
+    text-align: center;
+}
+
+.photo-block img {
+    height: 50vh;
+    width: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.caption {
+    margin-top: 12px;
+    font-size: 1rem;
+}
