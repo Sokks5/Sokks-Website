@@ -9,7 +9,6 @@ html {
 
 body {
     margin: 0;
-    width: 100vw;
     padding: 10px;
     font-family: sans-serif;
 }
@@ -50,6 +49,7 @@ nav span {
 .front-page-art {
     height: auto;
     width: 100%;
+    max-width: 100%;
     display: block;
 }
 
