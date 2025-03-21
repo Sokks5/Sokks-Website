@@ -30,7 +30,7 @@ nav span {
     flex-direction: column;
     gap: 40px;
     align-items: center;
-    padding: 40px 20px;
+    padding: 40px 0px;
     min-width: fit-content;
 }
 
@@ -41,9 +41,8 @@ nav span {
 .photo-block img {
     height: 50vh;
     width: auto;
-    max-width: 100vw;
+    max-width: 100%;
     object-fit: contain;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: block;
 }
 
