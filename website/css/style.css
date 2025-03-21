@@ -28,7 +28,7 @@ nav span {
 .gallery-container {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 0px;
     align-items: center;
     padding: 40px 0px;
     min-width: fit-content;
@@ -38,7 +38,11 @@ nav span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.photo-block:last-child {
+    margin-bottom: 0;
 }
 
 .photo-block img {
@@ -47,6 +51,7 @@ nav span {
     max-width: 100%;
     object-fit: contain;
     display: block;
+    margin-bottom: 10px;
 }
 
 .front-page-art {
